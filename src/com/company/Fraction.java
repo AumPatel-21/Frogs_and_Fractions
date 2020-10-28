@@ -67,6 +67,9 @@ public class Fraction {
     public static void main(String[] args) {
         Fraction f1 = new Fraction(3,4);   // create an instance of fraction
         Fraction f2 = new Fraction(4,5);
+
+        // New Fractions
+
         Fraction fadd1 = new Fraction(8,5);
         Fraction fadd2 = new Fraction(9,7);
 
@@ -81,7 +84,7 @@ public class Fraction {
         System.out.println(f1 + " * " + f2 +"= "+f5);
 
         Fraction f6 = f1.reciprocal(f2);   // reciprocal
-        System.out.println(f6);
+        System.out.println("4/3 * 5/4 = " + f6);
 
         Fraction f7 = fadd1.add(fadd2);   //adding 2 new fractions
         System.out.println(fadd1 + " + " + fadd2 + " = " + f7);
